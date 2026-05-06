@@ -33,7 +33,7 @@ This repository contains the implementation of the proposed:
 
 developed as part of the undergraduate research thesis:
 
-> *"Theoretical Extensions of Machine Learning Using Noise-Assisted Quantum Algorithms in Photonic Architectures"*
+> _"Theoretical Extensions of Machine Learning Using Noise-Assisted Quantum Algorithms in Photonic Architectures"_
 
 The project introduces a novel learning paradigm where environmental noise in photonic quantum systems is treated as a constructive resource instead of an unwanted disturbance.
 
@@ -133,11 +133,11 @@ This implementation recreates the photonic circuit mathematically using:
 
 The framework was evaluated on:
 
-| Dataset | Task |
-|---|---|
-| Fashion-MNIST | T-shirt vs Shirt Classification |
-| Breast Cancer Dataset | Binary Medical Classification |
-| CIFAR-10 | Airplane vs Automobile |
+| Dataset               | Task                            |
+| --------------------- | ------------------------------- |
+| Fashion-MNIST         | T-shirt vs Shirt Classification |
+| Breast Cancer Dataset | Binary Medical Classification   |
+| CIFAR-10              | Airplane vs Automobile          |
 
 ## Preprocessing
 
@@ -150,13 +150,13 @@ The framework was evaluated on:
 
 ## Configuration
 
-| Component | Value |
-|---|---|
-| Optical Modes | 4 |
-| Variational Layers | 2 |
-| Parameters per Layer | 26 |
-| Total Circuit Parameters | 52 |
-| Noise Parameters | 4 |
+| Component                | Value |
+| ------------------------ | ----- |
+| Optical Modes            | 4     |
+| Variational Layers       | 2     |
+| Parameters per Layer     | 26    |
+| Total Circuit Parameters | 52    |
+| Noise Parameters         | 4     |
 
 ---
 
@@ -164,11 +164,11 @@ The framework was evaluated on:
 
 Each layer contains:
 
-1. Rotation Gates  
-2. Squeezing Gates  
-3. Beamsplitters  
-4. Noise Channels  
-5. Displacement Gates  
+1. Rotation Gates
+2. Squeezing Gates
+3. Beamsplitters
+4. Noise Channels
+5. Displacement Gates
 
 ---
 
@@ -291,7 +291,7 @@ This research introduces:
 
 ## Title
 
-*Theoretical Extensions of Machine Learning Using Noise-Assisted Quantum Algorithms in Photonic Architectures*
+_Theoretical Extensions of Machine Learning Using Noise-Assisted Quantum Algorithms in Photonic Architectures_
 
 ## Institution
 
@@ -312,10 +312,10 @@ If you use this work, please cite:
 
 ```bibtex
 @thesis{alagiyawanna2026napqml,
-  author  = {A.M.A.S.D. Alagiyawanna},
-  title   = {Theoretical Extensions of Machine Learning Using Noise-Assisted Quantum Algorithms in Photonic Architectures},
-  school  = {University of Moratuwa},
-  year    = {2026}
+  author       = {A.M.A.S.D. Alagiyawanna and Asoka Karunananda},
+  title        = {Theoretical Extensions of Machine Learning Using Noise-Assisted Quantum Algorithms in Photonic Architectures},
+  school       = {University of Moratuwa},
+  year         = {2026}
 }
 ```
 
